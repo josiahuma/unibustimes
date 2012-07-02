@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical" >
+    
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14ff01d01c14a5"
+        ads:loadAdOnCreate="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/applogo" />
+
+    <!--<Button
+        android:id="@+id/mylocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/myLocation"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:visibility="invisible"/>
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emptyString" 
+        android:textSize="15.5sp"/> -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/selectTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/selectTime"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+            
+            <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/emptyString" 
+		        android:textSize="20.5sp"/>
+            <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/emptyString" 
+		        android:textSize="20.5sp"/>
+
+            <Spinner
+                android:id="@+id/timeSpinner"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+    </TableLayout>
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/selectLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectLocation"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/locationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emptyString" 
+        android:textSize="10.5sp"/>
+    
+    <TextView
+        android:id="@+id/selectDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectDestination"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/destinationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emptyString" 
+        android:textSize="10.5sp"/>
+    
+    <Button
+        android:id="@+id/viewTimesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewTimes"
+        android:background="@drawable/btn_blue"
+        style="@style/ButtonTextMedium"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

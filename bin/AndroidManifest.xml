@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.uk.nixr.unibustimes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+			<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+			<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name" >
+	<!-- <uses-library android:name="com.google.android.maps" /> -->
+	
+        <activity
+            android:label="@string/app_name"
+            android:name=".UniBusTimesActivity" >
+            <intent-filter >
+                <action android:name="co.uk.nixr.unibustimes.START" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".SplashActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".LocationActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.LOCATION" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".ViewBusTimesActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".InfoActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".TimeTableActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".IntroActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".DataCostActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".AboutSoftwareActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".TermsAndConditionsActivity" >
+        </activity>
+        
+        <!-- The application publisher ID assigned by AdMob -->
+        <meta-data android:value="a14ff01d01c14a5" android:name="ADMOB_PUBLISHER_ID"/>
+        
+        <!-- AdMobActivity definition -->
+        <activity android:name="com.google.ads.AdActivity" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+       <!--  <receiver android:name="com.google.ads.analytics.InstallReceiver" android:exported="true">
+            <intent-filter >
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver> -->
+                
+    </application>
+</manifest>

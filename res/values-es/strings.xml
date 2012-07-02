@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UniBusTimesActivity!</string>
+    <string name="app_name">UniBusTimes</string>
+    <string name="emptyString"> </string>
+    <string name="newjourney">New Journey</string>
+    <string name="prevjourney">Previous Journeys</string>
+    <string name="alertCloseWindow">Do you wish to exit app?</string>
+    <string name="alertCloseWindow2">Do you wish to return to main menu?</string>
+    <string name="alertCloseWindow3">Do you wish to select another time and location?</string>
+    <string name="negative">No</string>
+    <string name="positive">Yes</string>
+    <string name="iconHome">Home</string>
+    <string name="iconWeb">Web</string>
+    <string name="iconSettings">Settings</string>
+    <string name="iconInfo">Info</string>
+    <string name="language_title">English</string>
+	<string name="language_summary">Change to your preferred language</string>
+	<string name="settings_title">UniBusTimes Settings</string>
+	<string name="myLocation">Nearest Bus Stop</string>
+	<string name="selectTime">Select Time:</string>
+	<string name="selectLocation">Select Bus Stop:</string>
+	<string name="selectDestination">Select Your Destination:</string>
+	<string name="viewTimes">View Times</string>
+	<string name="routeColumn">Route</string>
+	<string name="destinationColumn">Destination</string>
+	<string name="timeColumn">Time</string>
+	<string name="DigitalClock">DigitalClock</string>
+	<string name="introduction">Introduction</string>
+	<string name="dataCost">Data Cost</string>
+	<string name="aboutSoftware">About Software</string>
+	<string name="termsandconditions">Terms &amp; Conditions</string>
+	<string name="note">Click on the Menu button on your phone to view more menu options including language settings</string>
+	<string name="introductionText">Use this application to search for scheduled uni bus times at the University of Kent.\n\n
+	    						You can select your bus stop location and destination, as well as check for buses leaving at different hours.\n\n
+	    						For help and support please check our online FAQ or send us an email.</string>
+	<string name="dataCostText">This application does not use your mobile data connection to retrieve timetable information.\n\n
+	    						Mobile data connection is only used for regular software updates and can be done using mobile 3G or WiFi connections.\n\n
+	    						In general, data costs are expected to be less than --- per update, however it is the users responsibility to understand how their network provider charges for data service use.</string>
+	<string name="aboutSoftwareText">Check for software update</string>
+	<string name="updateSoftware">Software Update</string>
+	<string name="termsAndConditionsText">Terms and conditions apply to the use of this application. \n\n
+	    						Go to http://google.com to read the full terms and conditions.\n\n
+	    						By downloading this application you agree to accept these terms and conditions.</string>
+</resources>

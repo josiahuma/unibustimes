@@ -1,0 +1,12 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <item android:id="@+id/menuicon1"
+        	android:icon="@drawable/ic_menu_home" />
+    	<item android:id="@+id/menuicon2"
+        	android:icon="@drawable/ic_dialog_time" />
+    	<item android:id="@+id/menuicon3"
+        	android:icon="@drawable/ic_menu_settings" />
+    	<item android:id="@+id/menuicon4"
+        	android:icon="@drawable/ic_dialog_info" />        
+    </menu>
