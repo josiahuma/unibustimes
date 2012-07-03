@@ -49,7 +49,6 @@
         android:layout_height="wrap_content"
         android:text="@string/emptyString"
         android:textSize="10.5sp" />
-
     
     <!--
     <TextView
