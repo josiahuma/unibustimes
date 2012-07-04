@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UniBusTimesActivity!</string>
+    <string name="app_name">UniBusTimes</string>
+    <string name="emptyString"> </string>
+    <string name="newjourney">新的行程</string>
+    <string name="prevjourney">以前的行程</string>
+    <string name="alertCloseWindow">你想退出软件吗?</string>
+    <string name="alertCloseWindow2">你想返回主菜单吗?</string>
+    <string name="alertCloseWindow3">你想选择另一个时间和地点吗?</string>
+    <string name="negative">不是</string>
+    <string name="positive">是</string>
+    <string name="iconHome">主页</string>
+    <string name="iconWeb">网页</string>
+    <string name="iconSettings">设置</string>
+    <string name="iconInfo">信息</string>
+    <string name="language_title">英语</string>
+	<string name="language_summary">切换成你想要的语言</string>
+	<string name="settings_title">UniBusTimes 时间表设置</string>
+	<string name="myLocation">最近的巴士站</string>
+	<string name="selectTime">选择时间:</string>
+	<string name="selectLocation">选择巴士站:</string>
+	<string name="selectDestination">选择你的目的地:</string>
+	<string name="viewTimes">查看时间表</string>
+	<string name="routeColumn">线路</string>
+	<string name="destinationColumn">目的地</string>
+	<string name="timeColumn">时间</string>
+	<string name="DigitalClock">DigitalClock</string>
+	<string name="introduction">介绍</string>
+	<string name="dataCost">数据成本</string>
+	<string name="aboutSoftware">关于软件</string>
+	<string name="termsandconditions">条款和条件</string>
+	<string name="note">点击手机上的菜单按钮查看包括语言设置在内的更多选择</string>
+	<string name="introductionText">用这个应用程序可以搜寻肯特大学的巴士时间表。你可以选择不同的巴士站和目的地，也可以查看其他时间离开的巴士。请浏览我们网上常见问题或者给我们发送邮件寻求帮助和支持.</string>
+	<string name="dataCostText">这款应用软件不使用移动数据连接来取得关于时间表的信息。移动数据连接仅用于3G和WiFi连接下的软件常规更新。总体来说，每次更新使用的移动数据较少，然而用户应该了解网络供应商如何对移动数据服务进行收费.</string>
+	<string name="aboutSoftwareText">检查更新</string>
+	<string name="updateSoftware">更新软件</string>
+	<string name="termsAndConditionsText">条款和条件适用于使用这个应用程序，前往http://google.com阅读所有条款和条件。下载这个应用软件表示你接受这些条款和条件.</string>
+</resources>

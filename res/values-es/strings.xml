@@ -4,43 +4,37 @@
     <string name="hello">Hello World, UniBusTimesActivity!</string>
     <string name="app_name">UniBusTimes</string>
     <string name="emptyString"> </string>
-    <string name="newjourney">New Journey</string>
-    <string name="prevjourney">Previous Journeys</string>
-    <string name="alertCloseWindow">Do you wish to exit app?</string>
-    <string name="alertCloseWindow2">Do you wish to return to main menu?</string>
-    <string name="alertCloseWindow3">Do you wish to select another time and location?</string>
+    <string name="newjourney">Nuevo destino</string>
+    <string name="prevjourney">Destinos anteriores</string>
+    <string name="alertCloseWindow">Estás seguro que deseas salir de la aplicación?</string>
+    <string name="alertCloseWindow2">Deseas regresar al menú principal?</string>
+    <string name="alertCloseWindow3">Deseas seleccionar otra hora y destino?</string>
     <string name="negative">No</string>
-    <string name="positive">Yes</string>
-    <string name="iconHome">Home</string>
+    <string name="positive">Sí</string>
+    <string name="iconHome">Menú principal</string>
     <string name="iconWeb">Web</string>
-    <string name="iconSettings">Settings</string>
+    <string name="iconSettings">Configuración</string>
     <string name="iconInfo">Info</string>
-    <string name="language_title">English</string>
-	<string name="language_summary">Change to your preferred language</string>
-	<string name="settings_title">UniBusTimes Settings</string>
-	<string name="myLocation">Nearest Bus Stop</string>
-	<string name="selectTime">Select Time:</string>
-	<string name="selectLocation">Select Bus Stop:</string>
-	<string name="selectDestination">Select Your Destination:</string>
-	<string name="viewTimes">View Times</string>
-	<string name="routeColumn">Route</string>
-	<string name="destinationColumn">Destination</string>
-	<string name="timeColumn">Time</string>
+    <string name="language_title">Español</string>
+	<string name="language_summary">Cambia a tu idioma preferido</string>
+	<string name="settings_title">Configuración UniBusTimes</string>
+	<string name="myLocation">Parada más cercana</string>
+	<string name="selectTime">Selecciona Hora:</string>
+	<string name="selectLocation">Selecciona parada:</string>
+	<string name="selectDestination">Selecciona destino:</string>
+	<string name="viewTimes">Ver horarios</string>
+	<string name="routeColumn">Ruta</string>
+	<string name="destinationColumn">Destino</string>
+	<string name="timeColumn">Hora</string>
 	<string name="DigitalClock">DigitalClock</string>
-	<string name="introduction">Introduction</string>
-	<string name="dataCost">Data Cost</string>
-	<string name="aboutSoftware">About Software</string>
-	<string name="termsandconditions">Terms &amp; Conditions</string>
-	<string name="note">Click on the Menu button on your phone to view more menu options including language settings</string>
-	<string name="introductionText">Use this application to search for scheduled uni bus times at the University of Kent.\n\n
-	    						You can select your bus stop location and destination, as well as check for buses leaving at different hours.\n\n
-	    						For help and support please check our online FAQ or send us an email.</string>
-	<string name="dataCostText">This application does not use your mobile data connection to retrieve timetable information.\n\n
-	    						Mobile data connection is only used for regular software updates and can be done using mobile 3G or WiFi connections.\n\n
-	    						In general, data costs are expected to be less than --- per update, however it is the users responsibility to understand how their network provider charges for data service use.</string>
-	<string name="aboutSoftwareText">Check for software update</string>
-	<string name="updateSoftware">Software Update</string>
-	<string name="termsAndConditionsText">Terms and conditions apply to the use of this application. \n\n
-	    						Go to http://google.com to read the full terms and conditions.\n\n
-	    						By downloading this application you agree to accept these terms and conditions.</string>
+	<string name="introduction">Introducción</string>
+	<string name="dataCost">Costo de datos</string>
+	<string name="aboutSoftware">Sobre la aplicación</string>
+	<string name="termsandconditions">Términos y condiciones</string>
+	<string name="note">Presiona el botón principal en to teléfono para ver más opciones incluyendo la configuración del idioma</string>
+	<string name="introductionText">Utilza esta aplicación para buscar los horarios de los buses en y a la Universidad de Kent. Puedes seleccionar la parada de origen y el destino, así como revisar los buses que salen en diferentes horarios. Para ayuda y soporte por favor checa las Preguntas frecuentes en línea o envíanos un email..</string>
+	<string name="dataCostText">Esta aplicación no utiliza tu conexión de datos para mostrar la información. La conexión de datos únicamente es utilizada para actualizaciones regulares de la acplicación y también se pueden hacer utilizando red 3G o conexiones WiFi. En general, los costos de datos deben de ser menores por actualización, sin embargo es responsabilidad del usuario entender los cargos de su proveedor de red por el servicio de datos.</string>
+	<string name="aboutSoftwareText">Revisar actualizacines del software</string>
+	<string name="updateSoftware">Actualización del software</string>
+	<string name="termsAndConditionsText">Términos y condiciones aplican con el uso del programa. Ir a http://google.com para leer todos los términos y condiciones. Al descargar esta aplicación, aceptas los mismos.</string>
 </resources>

@@ -24,6 +24,7 @@ import android.graphics.RectF;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.provider.Settings;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -193,9 +194,9 @@ public class UniBusTimesActivity extends Activity implements OnMenuItemSelectedL
 		case 2: Uri uri = Uri.parse( "http://www.stagecoachbus.com/" );
 				startActivity( new Intent( Intent.ACTION_VIEW, uri ) );
 	       		break;
-		case 3: Intent intent3 = new Intent(Intent.ACTION_MAIN);
-				intent3.setClassName("com.android.settings", "com.android.settings.LanguageSettings");            
+		case 3: Intent intent3 = new Intent(Settings.ACTION_LOCALE_SETTINGS);
 				startActivity(intent3);
+
 				break;
 		case 4: Intent intent4 = new Intent(UniBusTimesActivity.this, InfoActivity.class);
 	       		startActivity(intent4);
